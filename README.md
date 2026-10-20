@@ -1,6 +1,6 @@
 # CardioRisk: heart disease risk prediction with an end-to-end MLOps pipeline
 
-[![CI](https://github.com/Akshaya-Panda/Assignment-MLOPS/actions/workflows/ci.yml/badge.svg)](https://github.com/Akshaya-Panda/Assignment-MLOPS/actions/workflows/ci.yml)
+[![CI](https://github.com/Akshaya-Panda/MLOPS-Assignment/actions/workflows/ci.yml/badge.svg)](https://github.com/Akshaya-Panda/MLOPS-Assignment/actions/workflows/ci.yml)
 
 A binary classifier that predicts the presence of heart disease from 13 clinical measurements
 (UCI Heart Disease, Cleveland subset), delivered as a monitored, containerised API on Kubernetes.
@@ -54,8 +54,8 @@ Requirements: Python 3.11 or 3.12, Git, Docker. Kubernetes (Docker Desktop, mini
 cluster) is needed only for the deployment step.
 
 ```bash
-git clone https://github.com/Akshaya-Panda/Assignment-MLOPS.git
-cd Assignment-MLOPS
+git clone https://github.com/Akshaya-Panda/MLOPS-Assignment.git
+cd MLOPS-Assignment
 python -m venv .venv
 source .venv/bin/activate            # Windows (Git Bash): source .venv/Scripts/activate
 pip install -r requirements.txt
@@ -96,7 +96,7 @@ docker run -d --name cardiorisk-api -p 8000:8000 cardiorisk-api:1.0.0
 bash scripts/smoke_test.sh http://127.0.0.1:8000          # health, ready, predict, 422, metrics
 ```
 
-Or pull the image CI published: `docker run -p 8000:8000 ghcr.io/akshaya-panda/assignment-mlops:latest`.
+Or pull the image CI published: `docker run -p 8000:8000 ghcr.io/akshaya-panda/mlops-assignment:latest`.
 
 ### 5. Deploy to Kubernetes with monitoring
 

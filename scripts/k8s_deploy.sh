@@ -7,7 +7,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-PUBLISHED_IMAGE="ghcr.io/akshaya-panda/assignment-mlops:latest"
+PUBLISHED_IMAGE="ghcr.io/akshaya-panda/mlops-assignment:latest"
 
 if ! command -v kubectl >/dev/null 2>&1; then
   if command -v minikube >/dev/null 2>&1; then

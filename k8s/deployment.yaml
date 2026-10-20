@@ -34,7 +34,7 @@ spec:
         - name: api
           # Published by the CI pipeline after lint, tests, training and the smoke test.
           # Pin a specific build with:  kubectl -n cardiorisk set image deploy/cardiorisk-api api=<image>:<sha7>
-          image: ghcr.io/akshaya-panda/assignment-mlops:latest
+          image: ghcr.io/akshaya-panda/mlops-assignment:latest
           imagePullPolicy: Always
           ports:
             - name: http

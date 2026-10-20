@@ -247,7 +247,7 @@ TARGETS = {
     "api": Target(api_pages, "http://127.0.0.1:8000"),
     "grafana": Target(grafana_pages, "http://127.0.0.1:3001"),
     "prometheus": Target(prometheus_pages, "http://127.0.0.1:9090"),
-    "github": Target(github_pages, "https://github.com/Akshaya-Panda/Assignment-MLOPS"),
+    "github": Target(github_pages, "https://github.com/Akshaya-Panda/MLOPS-Assignment"),
     "mlflow": Target(
         mlflow_pages,
         "http://127.0.0.1:5000",
