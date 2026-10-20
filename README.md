@@ -10,6 +10,10 @@ tracking, testing, CI/CD, container publishing, deployment and monitoring.
 > Coursework for BITS Pilani *Machine Learning Operations (AIMLCZG523)*, Assignment 1.
 > The model is for education only and is not a medical device.
 
+**Deliverables:** [report (.docx)](report/MLOps_Assignment1_Report.docx) ·
+[pipeline video](https://drive.google.com/file/d/1v9RSQ5GZHEdgctoHnKYSgbIbN-CkWtpa/view?usp=sharing) ·
+[screenshots](screenshots/) · container image `ghcr.io/akshaya-panda/mlops-assignment:latest`
+
 ![Architecture](docs/architecture.png)
 
 ## Results
